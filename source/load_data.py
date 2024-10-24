@@ -32,7 +32,5 @@ def load_data(countries, folder_name):
     # Convert the 'Date' column to datetime if necessary
     combined_df['Date'] = pd.to_datetime(combined_df['Date'])
 
-    # Display the combined dataframe
-    print(combined_df.head())
-
+    # Return the dataframe
     return combined_df
